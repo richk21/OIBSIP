@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rye" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <h1>Temperature Converter</h1>
+    </header>
+
+    <div class="wrapper" id="wrapper">
+        <div class="input-box" id="swap-button">
+            <!-- <h5>Celsius</h5> -->
+            <select id="unit1">
+                <option value="celsius">Celsius</option>
+                <option value="kelvin">Kelvin</option>
+                <option value="fahrenheit">Fahrenheit</option>
+            </select>
+            <input type="number" id="textfield1" onchange="onInputInFields()">
+        </div>
+        <button class="swap-btn" onclick="onSwap()"><i class="fas fa-exchange-alt"></i></button>
+        <div class="input-box">
+            <!-- <h5>Fahrenheit</h5> -->
+            <select id="unit2" onchange="onInputInFields()">
+                <option value="celsius">Celsius</option>
+                <option value="kelvin" selected>Kelvin</option>
+                <option value="fahrenheit">Fahrenheit</option>
+            </select>
+            <input type="number" id="textfield2" disabled/>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <a href="https://github.com/richk21" target="_blank"><i class="fab fa-github"></i></a>
+        &nbsp;
+        <a href="https://www.instagram.com/richa_art21/" target="_blank"><i class="fab fa-instagram"></i></a>
+        &nbsp;
+        <a href="https://algonoob.devdojo.com/" target="_blank"><i class="fas fa-blog"></i></a>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>

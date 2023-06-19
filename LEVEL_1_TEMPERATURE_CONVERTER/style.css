@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000;
+    padding: 10px;
+    text-align: center;
+}
+
+.header h1 {
+    color: #fff;
+    font-family: "Rye";
+}
+  
+  body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F9EEA4;
+  }
+  
+  .wrapper {
+    display: flex;
+    min-width: 400px;
+    max-width: 600px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgb(126, 126, 126);
+  }
+  
+  .wrapper .input-box select {
+    max-width: 100px;
+    height: 50px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    font-size: 17px;
+    color: #fff;
+  }
+  .wrapper .input-box select option {
+    color: #000;
+  }
+  .wrapper .input-box{
+    justify-content: center;
+    padding:10%;
+  }
+  
+  .wrapper .input-box input {
+    max-width: 100px;
+    height: 50px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    text-align: center;
+    padding:5px;
+    font-size: 20px;
+    color: rgb(48, 47, 47);
+  }
+  
+  .input-box input::-webkit-inner-spin-button,
+  .input-box input::-webkit-outer-spin-button {
+    display: none;
+  }
+  .wrapper .swap-btn {
+    font-size: 15px;
+    color: white;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin: 10% 10%;
+    cursor: pointer;
+  }
+
+  #textfield2[disabled] {
+    background-color: #afadad;
+  }
+
+  .footer {
+    background-color: #000;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  .fab.fa-instagram {
+    color: white;
+  }
+  .fab.fa-github {
+    color: white;
+  }
+  .fas.fa-blog {
+    color: white;
+  }
+  
+  #convert-button {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #convert-button:hover {
+    background-color: #45a049;
+  }
+
+  

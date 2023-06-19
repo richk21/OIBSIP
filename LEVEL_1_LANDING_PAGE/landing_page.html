@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <title> Coffe Shop</title>
+    <link rel="stylesheet" href="landing_page.css">
+    </head>
+    <body>
+        <section style="background-color: #d8cccc;">
+            <div class="circle"></div>
+            <header>
+                <a href="#"><img src="logo.png" class="logo" width="300px" height="300px"/></a>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">What's New</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </header>
+            <div class="content">
+                <div class="textBox">
+                    <h2>World's finest coffee at<br><span><b>Caf<span style="color:#7c5454;">é</span>la</b></span></h2>
+                    <p>Awaken your senses with the rich aroma and exquisite flavors of Caféla, where every sip is a 
+                        journey through the finest handcrafted coffees. Indulge in the perfect blend of passion and perfection, 
+                        curated to elevate your coffee experience to new heights!</p>
+                        <a href="https://richakiran21.netlify.app/">Learn More</a>
+                        </div>
+                        <div class="imgBox">
+                            <img src="img1.png" class="shakepic" width="auto" height="499px">
+                        </div>
+            </div>
+            <ul class="thumb">
+                <li><img src="img1.png" height="100px" width="auto" onclick="imgSlider('img1.png')"/></li>
+                <li><img src="img2.png" height="100px" width="auto" onclick="imgSlider('img2.png')"/></li>
+                <li><img src="img3.png" height="100px" width="auto" onclick="imgSlider('img3.png')"/></li>
+            </ul>
+            <ul class="contactus">
+                <li><a href="https://github.com/richk21"><img src="github.png" height="60px" width="auto"/></a></li>
+                <li><a href="https://www.instagram.com/richa_art21/"><img src="instagram.png" height="60px" width="auto"/></a></li>
+                <li><a href="https://twitter.com/richa25424629"><img src="twitter.png" height="60px" width="auto"/></a></li>
+            </ul>
+        </section>
+        <script type="text/javascript">
+            function imgSlider(anything){
+                document.querySelector('.shakepic').src = anything;
+            }
+        </script>
+    </body>
+</html>
